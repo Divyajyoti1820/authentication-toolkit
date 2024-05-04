@@ -7,7 +7,7 @@ const SettingsPage = async () => {
       <h1 className="text-5xl font-bold text-white drop-shadow-md">
         PROTECTED ROUTE
       </h1>
-      <p className="w-full text-center text-2xl text-white font-medium">
+      <p className="w-[80%] text-center text-sm text-white font-medium">
         {JSON.stringify(session)}
       </p>
       <form
