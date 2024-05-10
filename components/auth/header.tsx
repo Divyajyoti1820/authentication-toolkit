@@ -1,11 +1,13 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { font } from "@/app/page";
+import { Poppins } from "next/font/google";
 
 interface HeaderProps {
   label?: string;
 }
+
+const font = Poppins({ subsets: ["latin"], weight: ["600"] });
 
 export const Header = ({ label }: HeaderProps) => {
   return (

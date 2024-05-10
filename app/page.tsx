@@ -5,7 +5,7 @@ import { LogIn } from "lucide-react";
 import Link from "next/link";
 import { LoginButton } from "@/components/auth/login-button";
 
-export const font = Poppins({ subsets: ["latin"], weight: ["600"] });
+const font = Poppins({ subsets: ["latin"], weight: ["600"] });
 
 const HomePage = () => {
   return (
